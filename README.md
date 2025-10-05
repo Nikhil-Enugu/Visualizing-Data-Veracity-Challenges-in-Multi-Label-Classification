@@ -27,7 +27,7 @@ The project is divided into three main parts as outlined in the assignment:
 4.  **Scaling**: Standardization is applied to the feature matrix `X` because scaling is crucial for distance-based dimensionality reduction techniques to prevent features with larger numeric ranges from dominating the results.
 
 ### Part B: t-SNE and Veracity Inspection
-1.  **t-SNE Implementation**: t-SNE is applied to the scaled feature matrix to reduce it to 2 dimensions. The `perplexity` hyperparameter is experimented with (5, 30, 50), and a final choice is justified based on the quality of the visualization.
+1.  **t-SNE Implementation**: t-SNE is applied to the scaled feature matrix to reduce it to 2 dimensions. The `perplexity` hyperparameter is experimented with (5, 10, 15, 30, 40, 50), and a final choice is justified based on the quality of the visualization.
 2.  **Visualization**: A 2D scatter plot of the t-SNE coordinates is created, with points colored according to the categories created in Part A.
 3.  **Veracity Inspection**: The plot is analyzed to visually identify:
     * **Noisy/Ambiguous Labels**: Points of one color embedded within a cluster of another color.
